@@ -1,8 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './New.jsx'
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css'
 
 function App() {
@@ -31,13 +26,13 @@ function App() {
 
         <br />
 
-       <a href="https://html.com/html5/#ixzz7ykir7L2W">Read more</a>
+       <a href="https://html.com/html5/#ixzz7ykir7L2W" target='_blank'>Read more</a>
        <br />
-       <Router>
+       {/* <Router>
         <Routes>
           <Route path="/"></Route>
         </Routes>
-       </Router>
+       </Router> */}
       </p>
     </div>
     <div className="img">
